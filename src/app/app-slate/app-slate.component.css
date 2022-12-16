@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+mat-sidenav-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #e0e2db;
+    padding: 10px 5px;
+
+}
+mat-sidenav{
+    background-color: #e6af2e !important;
+    width: 200px;
+    padding: 10px 22px;
+}

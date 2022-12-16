@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-app-slate',
+  selector: 'app-slate',
   templateUrl: './app-slate.component.html',
   styleUrls: ['./app-slate.component.css']
 })
