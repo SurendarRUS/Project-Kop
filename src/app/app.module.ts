@@ -7,13 +7,16 @@ import { MatAutocompleteModule  } from '@angular/material/autocomplete';
 import {  MatCheckboxModule } from '@angular/material/checkbox';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button'
+import {MatButtonModule} from '@angular/material/button';
+import { FileCardComponent } from './file-card/file-card.component'
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppSlateComponent
+    AppSlateComponent,
+    FileCardComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +25,8 @@ import {MatButtonModule} from '@angular/material/button'
     MatCheckboxModule,
     MatSidenavModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
